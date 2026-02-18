@@ -15,7 +15,7 @@ Reusable commands (slash commands, skills, prompts) for AI-powered coding CLIs. 
 | Command | Description | Claude Code | OpenCode | Codex CLI |
 |---------|-------------|:-----------:|:--------:|:---------:|
 | `gca` | Commit everything in a single commit, pull, then push to origin | `/gca` | `/gca` | `$gca` |
-| `ggpnp` | Commit all changes, pull, then push to origin | `/ggpnp` | `/ggpnp` | `$ggpnp` |
+| `ggpnp` | Small isolated commits per logical change, pull, then push to origin | `/ggpnp` | `/ggpnp` | `$ggpnp` |
 
 ## Directory Structure
 
