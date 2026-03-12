@@ -1,5 +1,7 @@
 ---
 description: Stage all changes, commit everything in a single commit, pull from origin, then push to origin
+model: openai/gpt-5.3-codex-spark
+subtask: true
 ---
 
 # gca - Commit Everything, Pull, and Push

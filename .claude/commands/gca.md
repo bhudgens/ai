@@ -1,5 +1,7 @@
 # gca - Commit Everything, Pull, and Push
 
+Spawn a Haiku subagent to perform all the git work below. Pass the full instructions to the subagent and return its result.
+
 Stage ALL changes (tracked and untracked), create a single commit, pull from origin, then push to origin on the current branch.
 
 ## Steps

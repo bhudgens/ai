@@ -1,5 +1,7 @@
 ---
 description: Analyze changes, create small isolated commits for each logical change, pull from origin, then push to origin
+model: openai/gpt-5.3-codex-spark
+subtask: true
 ---
 
 # ggpnp - Small Commits, Pull, and Push
