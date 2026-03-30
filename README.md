@@ -17,6 +17,7 @@ Reusable commands (slash commands, skills, prompts) for AI-powered coding CLIs. 
 | `gca` | Commit everything in a single commit, pull, then push to origin | `/gca` | `/gca` | `$gca` |
 | `ggpnp` | Small isolated commits per logical change, pull, then push to origin | `/ggpnp` | `/ggpnp` | `$ggpnp` |
 | `research-plan` | Research codebase with a fast model, then switch to a powerful model for planning | `/research-plan <task>` | `/research-plan <task>` | `$research-plan <task>` |
+| `organize` | Audit and restructure a repo for AI-native development (CLAUDE.md, skills, docs, local context) | `/organize` | `/organize` | `$organize` |
 
 ## Directory Structure
 
@@ -24,15 +25,19 @@ Reusable commands (slash commands, skills, prompts) for AI-powered coding CLIs. 
 .claude/commands/          # Claude Code slash commands
   gca.md
   ggpnp.md
+  organize.md
   research-plan.md
 .opencode/command/         # OpenCode slash commands
   gca.md
   ggpnp.md
+  organize.md
   research-plan.md
 .agents/skills/            # Codex CLI agent skills
   gca/
     SKILL.md
   ggpnp/
+    SKILL.md
+  organize/
     SKILL.md
   research-plan/
     SKILL.md
